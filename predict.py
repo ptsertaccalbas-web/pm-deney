@@ -33,7 +33,7 @@ MIN_P, MAX_P = 0.03, 0.97             # neredeyse çözülmüş piyasaları ele
 PM_MOCK_FILE = os.environ.get("PM_MOCK_FILE")
 
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 GEMINI_GROUNDING = os.environ.get("GEMINI_GROUNDING", "1") == "1"
 GEMINI_SLEEP = float(os.environ.get("GEMINI_SLEEP", "7"))   # ücretsiz katman RPM limiti için
 GEMINI_MOCK = os.environ.get("GEMINI_MOCK") == "1"
