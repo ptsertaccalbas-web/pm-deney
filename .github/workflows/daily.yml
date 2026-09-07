@@ -7,6 +7,7 @@ on:
   push:                    # kod değişince de çalışsın (veri commit'leri bot token'ıyla, tetiklemez)
     paths:
       - "fetch_markets.py"
+      - "predict.py"
       - ".github/workflows/daily.yml"
 
 permissions:
@@ -19,7 +20,9 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -29,6 +32,13 @@ jobs:
 
       - name: Piyasaları çek
         run: python fetch_markets.py
+
+      - name: Evren fiyatları + Gemini tahminleri
+        if: always() && env.GEMINI_API_KEY != ''   # anahtar girilmemişse atla
+        env:
+          GEMINI_MODEL: gemini-2.5-flash
+          GEMINI_GROUNDING: "1"
+        run: python predict.py
 
       - name: Veriyi commit et
         if: always()   # HATA olsa bile run_log.csv commit edilsin
