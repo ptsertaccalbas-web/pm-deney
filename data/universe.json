@@ -1,0 +1,922 @@
+{
+ "frozen_at_utc": "2026-09-08T07:57:56+00:00",
+ "rules": {
+  "min_days": 7,
+  "max_days": 90,
+  "min_p": 0.03,
+  "max_p": 0.97,
+  "size": 100,
+  "sports_excluded": true,
+  "order": "liquidity desc"
+ },
+ "candidates_scanned": 2100,
+ "excluded": {
+  "parse": 0,
+  "sport": 738,
+  "date": 913,
+  "price": 247,
+  "yesno": 14
+ },
+ "markets": [
+  {
+   "market_id": "2252244",
+   "question": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+   "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-september-2026-meeting-615",
+   "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's September 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for September 15-16, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their September meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+   "end_date": "2026-09-16T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 651717.8702
+  },
+  {
+   "market_id": "2252245",
+   "question": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+   "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-september-2026-meeting-649",
+   "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's September 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for September 15-16, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their September meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+   "end_date": "2026-09-16T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 622740.1195
+  },
+  {
+   "market_id": "562802",
+   "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "description": "This market will resolve according to the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a seat is decided by a runoff, the runoff result will determine attribution of that seat.\n\nSeats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nHouse members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 620282.876
+  },
+  {
+   "market_id": "562803",
+   "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+   "slug": "will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
+   "description": "This market will resolve according to the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a seat is decided by a runoff, the runoff result will determine attribution of that seat.\n\nSeats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nHouse members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 603790.1947
+  },
+  {
+   "market_id": "1130012",
+   "question": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-united-russia-er-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "description": "Parliamentary elections are to be scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that gains the greatest number of seats in the next Russian State Duma election, compared to before the election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats gained, this market will resolve in favor of the party that received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats gained by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.",
+   "end_date": "2026-09-30T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 402599.492
+  },
+  {
+   "market_id": "2589813",
+   "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+   "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-october-2026-meeting-20260617190324032",
+   "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+   "end_date": "2026-10-28T23:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 329859.0886
+  },
+  {
+   "market_id": "2589812",
+   "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+   "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-october-2026-meeting-20260617190324031",
+   "description": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+   "end_date": "2026-10-28T23:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 329438.9006
+  },
+  {
+   "market_id": "562830",
+   "question": "2026 Balance of Power: R Senate, D House",
+   "slug": "2026-balance-of-power-r-senate-d-house-444",
+   "description": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chambers.\n\nFor determining Senate control, all regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Vacant Senate seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat. For determining House control, all House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a Senate or House seat is decided by a runoff, the runoff result will determine attribution of that seat, even if it takes place after November 2026.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected. \n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate and House members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate or House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 324777.3219
+  },
+  {
+   "market_id": "562831",
+   "question": "2026 Balance of Power: R Senate, R House",
+   "slug": "2026-balance-of-power-r-senate-r-house-537",
+   "description": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chambers.\n\nFor determining Senate control, all regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Vacant Senate seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat. For determining House control, all House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a Senate or House seat is decided by a runoff, the runoff result will determine attribution of that seat, even if it takes place after November 2026.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected. \n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate and House members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate or House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 264600.728
+  },
+  {
+   "market_id": "601819",
+   "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+   "slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate that wins this election.\n\nThis market includes any potential second round. If the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 262808.6557
+  },
+  {
+   "market_id": "3701690",
+   "question": "Israel closes its airspace by September 30?",
+   "slug": "israel-closes-its-airspace-by-september-30",
+   "description": "This market will resolve to “Yes” if Israel initiates a major closure of its airspace by the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”. \n\nA “major closure” is defined as a broad closure, cancellation, or complete suspension of commercial aviation across the entirety of Israeli civilian airspace or a region encompassing a majority of Israeli civilian airspace, including commercial flights transiting, arriving in, and departing from that airspace. A qualifying closure must apply generally to all flights across Israel or a qualifying subset of Israeli airspace. Limited cancellations, delays, temporary ground stops or isolated regional closures will not qualify. Limited exceptions to a broad closure, however, will not disqualify such a closure from counting (e.g. exceptions for certain pre-approved flights may be permitted).\n\nWarnings, No-Fly-Zones, flight suspensions, or other flight restrictions imposed by airlines or countries other than Israel will not be sufficient for a “Yes” resolution.\n\nAirspace closures which occur solely due to weather conditions will not qualify.\n\nThe primary resolution source for this market will be official information from Israeli aviation authorities; however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 240325.1219
+  },
+  {
+   "market_id": "562793",
+   "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+   "slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+   "description": "This market will resolve according to the party that wins control of the United States Senate in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 218608.3983
+  },
+  {
+   "market_id": "562794",
+   "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+   "slug": "will-the-republican-party-control-the-senate-after-the-2026-midterm-elections",
+   "description": "This market will resolve according to the party that wins control of the United States Senate in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 216661.1783
+  },
+  {
+   "market_id": "601826",
+   "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+   "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate that wins this election.\n\nThis market includes any potential second round. If the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 211884.00178
+  },
+  {
+   "market_id": "1130015",
+   "question": "Will the Liberal Democratic Party of Russia (LDPR) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-the-liberal-democratic-party-of-russia-ldpr-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "description": "Parliamentary elections are to be scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that gains the greatest number of seats in the next Russian State Duma election, compared to before the election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats gained, this market will resolve in favor of the party that received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats gained by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.",
+   "end_date": "2026-09-30T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 209075.2139
+  },
+  {
+   "market_id": "608545",
+   "question": "Will Lamine Yamal win the 2026 Ballon d'Or?",
+   "slug": "will-lamine-yamal-win-the-2026-ballon-dor",
+   "description": "This market will resolve according to the winner of the 2026 Ballon d’Or.\n\nIf no 2026 Ballon d’Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 208555.65894
+  },
+  {
+   "market_id": "562828",
+   "question": "2026 Balance of Power: D Senate, D House",
+   "slug": "2026-balance-of-power-d-senate-d-house-949",
+   "description": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chambers.\n\nFor determining Senate control, all regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Vacant Senate seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat. For determining House control, all House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a Senate or House seat is decided by a runoff, the runoff result will determine attribution of that seat, even if it takes place after November 2026.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected. \n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate and House members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate or House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 207336.3748
+  },
+  {
+   "market_id": "3501950",
+   "question": "Strait of Hormuz traffic returns to normal by October 31?",
+   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-october-31-20260810151043583",
+   "description": "This market will resolve to “Yes” if IMF Portwatch publishes a 7-day moving average of transit calls (“Arrivals of Ships”) for the Strait of Hormuz equal to or above 60 for any date between market creation and October 31, 2026. Otherwise, this market will resolve to “No”.\n\nDaily transit calls include container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nThis market will resolve as soon as IMF Portwatch publishes a 7-day moving average of transit calls equal to or above the specified level, or once data has been published for the final date in the specified period and no such value has been published. If no data has been published for the final date of the specified period within 14 calendar days (ET) after the end of that period, this market will resolve based on data published up to that point.\n\nRevisions to previously published data points made within this market’s timeframe will be considered. However, they will not disqualify a previously published data point from qualifying. Revisions to previously published data points after data is published for October 31, 2026, however, will not be considered.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data, and do not include cases where IMF Portwatch differs from alternative sources.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Strait of Hormuz at https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730, both in the chart and through downloadable files.",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 204835.2999
+  },
+  {
+   "market_id": "1130016",
+   "question": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+   "slug": "will-new-people-nl-gain-the-most-seats-in-the-next-russian-parliamentary-election",
+   "description": "Parliamentary elections are to be scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that gains the greatest number of seats in the next Russian State Duma election, compared to before the election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats gained, this market will resolve in favor of the party that received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party whose listed abbreviation appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats gained by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.",
+   "end_date": "2026-09-30T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 160874.65306
+  },
+  {
+   "market_id": "608547",
+   "question": "Will Harry Kane win the 2026 Ballon d'Or?",
+   "slug": "will-harry-kane-win-the-2026-ballon-dor",
+   "description": "This market will resolve according to the winner of the 2026 Ballon d’Or.\n\nIf no 2026 Ballon d’Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 159091.09416
+  },
+  {
+   "market_id": "2264327",
+   "question": "Russia x Ukraine ceasefire by October 31, 2026?",
+   "slug": "russia-x-ukraine-ceasefire-by-october-31-2026",
+   "description": "This market will resolve to \"Yes\" if a ceasefire between Russia and Ukraine goes into effect by 11:59 PM Eastern European Time (EET) on the specified date and remains continuously in effect for at least 10 calendar days. Otherwise, this market will resolve to \"No\".\n\nA ceasefire refers to any mutually agreed suspension of direct military engagement between Russia and Ukraine, which is officially announced by both countries or confirmed by a consensus of credible reporting to have been mutually agreed by both countries, and which constitutes a general suspension of direct kinetic military engagement across the primary theater of the overall conflict. A broader peace deal, normalization agreement, political framework, truce, or humanitarian pause (including holiday ceasefires) will count provided they otherwise qualify under this market’s rules. \n\nAny form of informal understanding, backchannel communication, de-escalation without an announced agreement, or unilateral pause in hostilities will not be considered a ceasefire. Agreements which only apply to specific conflict categories (e.g. restrictions on certain target categories or certain locations) will not qualify.\n\nAny calendar day (EET) during which the ceasefire is in effect (including the first day of the ceasefire) will count towards the 10-day total. The required 10 day period will end at 11:59 PM EET on the 10th day (inclusive). If a qualifying ceasefire goes into effect prior to this market’s end date, this market will remain open until the ceasefire is no longer in effect, or until the 10 calendar days have been reached. \n\nA ceasefire is considered no longer in effect when a consensus of credible reporting indicates the general suspension of hostilities has substantively ended across the primary theater. Temporary or technical lapses or expiration of a formal ceasefire term, isolated incidents, localized violations, or accusations alone will not invalidate the ceasefire provided the general suspension of hostilities across the primary theater continues. Where official government statements conflict with a consensus of credible field reporting, the reporting will take precedence over the government statements. \n\nThe resolution source for this market will be a consensus of credible sources.\n\nExamples of qualifying Ceasefires:\n\nApril 8, 2026 US–Iran ceasefire: The United States and Iran publicly announced and implemented a mutually agreed ceasefire framework intended to broadly halt direct military hostilities between the two countries. Despite subsequent maritime confrontations, alleged violations, isolated retaliatory strikes, and disputes regarding compliance, the broader ceasefire framework continued to function and widescale fighting across the primary theater did not resume.\n\nNovember 27, 2024 Israel–Hezbollah ceasefire: Israel and Hezbollah implemented a broadly operative ceasefire framework brokered through international mediators that substantially reduced hostilities across southern Lebanon and northern Israel, including the effective halt of Israel’s major ground offensive into Lebanon and a significant reduction in Hezbollah rocket fire. Although the ceasefire was not formally announced through a single joint declaration by both parties and public statements differed in framing and characterization, a consensus of credible reporting confirmed the arrangement had been mutually agreed and implemented in practice. Despite continued isolated strikes, alleged violations, and disputes regarding compliance, credible reporting broadly treated the ceasefire as remaining operational and widescale fighting across the primary theater of the conflict did not resume.\n\nExamples of non qualifying Ceasefires:\n\nNovember 24, 2023 Israel–Hamas humanitarian pause: Although it was a mutually agreed and publicly announced broad suspension of hostilities across Gaza, the ceasefire framework remained in effect for only approximately 7 days before wide-scale fighting resumed, failing the required 10-calendar-day duration requirement. Ceasefire violations prior to November 30, would not have invalidated the ceasefire. \n\nJuly 22, 2022 Black Sea Grain Initiative: Although Russia and Ukraine entered into internationally brokered agreements governing grain exports and reducing risks to commercial shipping in the Black Sea, the arrangement did not constitute a general suspension of direct military engagement across the primary theater of the war. Hostilities continued across Ukraine throughout the duration of the agreement and the arrangement applied only to specific categories of activity and geographic areas.\n\nMay 2023 Sudan ceasefires (SAF–RSF): Although the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) publicly agreed to multiple internationally brokered ceasefires, a consensus of credible reporting indicated that the general suspension of hostilities across the primary theater never substantively took effect and large-scale fighting broadly continued throughout the ceasefire periods. While some temporary reductions in violence and localized humanitarian access reportedly occurred in certain areas, artillery fire, airstrikes, urban combat, troop movements, and offensive operations continued across major parts of Sudan almost immediately after implementation. Credible reporting broadly treated the ceasefires as having failed or collapsed in practice despite technically remaining in force on paper.",
+   "end_date": "2026-10-31T21:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 156303.927
+  },
+  {
+   "market_id": "608566",
+   "question": "Will Rodri win the 2026 Ballon d'Or?",
+   "slug": "will-rodri-win-the-2026-ballon-dor",
+   "description": "This market will resolve according to the winner of the 2026 Ballon d’Or.\n\nIf no 2026 Ballon d’Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 147284.9466
+  },
+  {
+   "market_id": "628940",
+   "question": "Will Steve Hilton win the California Governor Election in 2026?",
+   "slug": "will-steve-hilton-win-the-california-governor-election-in-2026",
+   "description": "This market will resolve to according to the candidate who wins the 2026 California gubernatorial election currently scheduled for November 3, 2026.\n\nIf the results of the election are not confirmed by July 31, 2027, this market will resolve to \"Other\".\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on official certification.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 142940.99667
+  },
+  {
+   "market_id": "1439550",
+   "question": "Fed rate cut by October 2026 meeting?",
+   "slug": "fed-rate-cut-by-october-2026-meeting-199-747",
+   "description": "This market will resolve to “Yes” if the upper bound of the target federal funds rate is decreased at any point between December 16, 2025 and the completion of the Federal Open Market Committee (FOMC) meeting for October 2026, currently scheduled for October 27-28. Otherwise, this market will resolve to “No”.\n\nIf no October meeting takes place by November 7, 2026, 11:59 PM ET, and no qualifying rate cut has been announced, this market will resolve to \"No\". \n\nEmergency rate cuts will qualify.\n\nThe primary resolution source for this market will be the official website of the Federal Reserve (https://www.federalreserve.gov/monetarypolicy/openmarket.htm), however a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-08T04:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 139548.95406
+  },
+  {
+   "market_id": "3399197",
+   "question": "Russia Elections: United Russia Wins Every Region?",
+   "slug": "russia-elections-united-russia-wins-every-region",
+   "description": "Parliamentary elections are scheduled to be held in Russia on September 20, 2026.\n\nThis market will resolve to \"Yes\" if the United Russia party list receives the greatest number of valid votes of any party list in each individual region in the 2026 Russian legislative elections. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, a region means any federal subject of the Russian Federation for which results of the federal party-list vote are separately reported by the Central Election Commission of the Russian Federation.\n\nThis market will resolve solely according to the valid votes received by each party list in each region. The number of seats won by any party, including any seats won in single-member constituencies, will have no bearing on resolution.\n\nIf the United Russia party list is tied with multiple party lists for the greatest number of valid votes in a region, United Russia will be considered to have received the greatest number of valid votes in that region for the purposes of this market.\n\nIf the results of this election are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.",
+   "end_date": "2026-09-20T23:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 132343.0556
+  },
+  {
+   "market_id": "608553",
+   "question": "Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?",
+   "slug": "will-khvicha-kvaratskhelia-win-the-2026-ballon-dor",
+   "description": "This market will resolve according to the winner of the 2026 Ballon d’Or.\n\nIf no 2026 Ballon d’Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 122774.87297
+  },
+  {
+   "market_id": "3247642",
+   "question": "US x Iran diplomatic meeting by September 30, 2026?",
+   "slug": "us-x-iran-diplomatic-meeting-by-september-30-2026",
+   "description": "On June 22, the first round of U.S.-Iran diplomatic talks in Switzerland concluded, with mediators reporting progress toward a roadmap for a final deal and follow-on technical talks expected to continue.(see: https://www.aljazeera.com/news/2026/6/22/us-iran-agree-on-roadmap-towards-final-deal-in-switzerland-talks). \n\nThis market will resolve to “Yes” if the next formal senior-level round of peace talks between representatives of the United States and Iran begins by the listed date, 11:59 PM ET. Otherwise, this market will resolve to “No.”\n\nA qualifying round must be a deliberate in-person diplomatic meeting or negotiating round concerning US-Iran relations, involving senior representatives of both the United States and Iran who are acting in an official capacity and are authorized to conduct or materially direct diplomacy on behalf of their governments.\n\nIndirect in-person diplomacy through designated mediators, facilitators, or interlocutors will qualify, provided senior representatives of both the United States and Iran are participating in the same formal diplomatic process with the knowledge and authorization of their respective governments. The representatives need not be in the same room at the same time.\n\nFollow-on technical talks from the June 22 Switzerland round will not qualify by themselves. Technical, staff-level, working-group, implementation, monitoring, preparatory, or deconfliction meetings will not qualify unless they occur as part of a new formally convened senior-level U.S.-Iran peace-talks round.\n\nBrief greetings, chance encounters, photo opportunities, ceremonial appearances, or talks not deliberately aimed at diplomacy or negotiation will not count.\n\nThe meeting must be in-person (including indirect in-person meetings) and must be publicly acknowledged by either government or reported by a consensus of credible media. Remote meetings, phone calls, or other meetings where the relevant parties are not present will not count.\n\nThe resolution sources for this market will be official information from the governments of the United States and Iran, and a consensus of credible reporting.",
+   "end_date": "2026-09-30T23:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 120132.0447
+  },
+  {
+   "market_id": "2170255",
+   "question": "Bab el-Mandeb Strait effectively closed by September 30?",
+   "slug": "bab-el-mandeb-strait-effectively-closed-by-september-30-999-671-939",
+   "description": "This market will resolve to “Yes” if IMF PortWatch publishes a 7-day moving average of transit calls (“Arrivals of Ships”) for the Bab el-Mandeb Strait less than or equal to 10 for any date between market creation and the listed date. Otherwise, this market will resolve to “No”.\n\nThis market will resolve as soon as IMF PortWatch publishes a 7-day moving average of transit calls for the Bab el-Mandeb Strait equal to or below 10, or once data has been published for the listed date and no such value has been published.\n\nIf no data has been published for the listed date within 14 calendar days (ET) after that date, this market will resolve based on the data published up to that point.\n\nRevisions to previously published data points made before data has been published for the listed date will be considered; however, they will not disqualify a previously published data point from qualifying. Revisions made after data has been published for the listed date will not be considered.\n\nThe resolution source for this market will be IMF PortWatch, specifically the “Arrivals of Ships” data published for the Bab el-Mandeb Strait at https://portwatch.imf.org/pages/6b1814d64903461b98144a6cc25eb79c.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 116158.85145
+  },
+  {
+   "market_id": "3128888",
+   "question": "US announces end of Iranian blockade by October 31, 2026?",
+   "slug": "us-announces-end-of-iranian-blockade-by-october-31-2026-20260727171711632-895-372-622-413-171-454-592-696",
+   "description": "On July 13, 2026, Trump announced the United States would reinstate its naval blockade of Iran, targeting Iranian ships and customers.\n\nThis market will resolve to “Yes” if the United States government, or an authorized representative of the United States government, publicly and officially announces the end, termination, lifting, or suspension of the United States’ naval blockade on Iranian ships and ships of Iranian customers, between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAn announcement qualifies if it communicates that the United States will generally cease blocking vessel traffic for Iranian ships and customers, including an announcement that the blockade will not take effect at all, even if some restrictions remain (for example, an imposition of fees). An announcement does not qualify if it reflects only a limited or partial change that stops short of a general end or suspension of the blockade, for example, an exemption for a specific vessel, cargo, or port.\n\nA qualifying announcement must be a declarative statement of the United States government’s present termination or suspension of the blockade, previously-unannounced prior termination or suspension of the blockade, or definitive decision to terminate or suspend the blockade.\n\nA qualifying announcement must clearly and unambiguously identify the end or suspension of the blockade. Statements that merely allude to, reference, or describe an end to the blockade, without clearly communicating it, do not qualify. The announcement need not use specific terminology or reference the end of a blockade by name; an announcement of a resumption of prior obligations, the maintenance of a status quo, or a return to a previously agreed baseline qualifies, provided the substantive policy of ending or suspending the blockade is clearly and unambiguously communicated.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nThe following do not qualify:\n\nAnonymous, unattributed, or leaked statements not confirmed as official;\nStatements by persons not authorized to speak for the United States government;\nThird-party speculation, analysis, or predictions that the United States government will announce or implement an end to the blockade;\nSatirical, fabricated, hacked, or impersonated communications; and\nStatements that describe a prospective, contingent, probable, or conditional end to the blockade rather than announcing a present and decided position.\n\nOnce a qualifying announcement is made, this market will resolve to “Yes” regardless of whether it is later reversed, or whether the blockade actually ends in practice.\n\nResolution will be based on official information from the United States government, including the President, the Department of Defense, the Department of State, and United States Central Command (CENTCOM), or the official representatives of the United States government.",
+   "end_date": "2026-11-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 111563.7474
+  },
+  {
+   "market_id": "4052413",
+   "question": "Will Bitcoin reach $100,000 in September?",
+   "slug": "will-bitcoin-reach-100k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 110928.17917
+  },
+  {
+   "market_id": "1365854",
+   "question": "Will Luiz Inácio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
+   "slug": "will-luiz-incio-lula-da-silva-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the second-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the second-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 109831.89314
+  },
+  {
+   "market_id": "2046125",
+   "question": "Will the Liberal Democratic Party of Russia (LDPR) win the second-most seats in the next Russian parliamentary election?",
+   "slug": "will-the-liberal-democratic-party-of-russia-ldpr-win-the-second-most-seats-in-the-next-russian-parliamentary-election",
+   "description": "Parliamentary elections are scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that wins the second greatest number of seats in the next Russian State Duma election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe named parties or coalitions will be primarily ranked by the number of seats won in the specified election. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party abbreviations. This market will resolve to the party that occupies the second finishing position after applying this ranking.\n\nThis market's resolution will be based solely on the number of seats won by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.\n\nNote: If a listed party contests the election as part of a jointly listed coalition with one or more parties not listed in this market, the market corresponding to the listed party will represent the coalition and will count all seats won by the coalition collectively. If two or more listed parties contest the election as a jointly listed coalition, with or without additional parties not listed in this market, the market corresponding to the party within that coalition that won the most seats in the previous election will represent the coalition and will count all seats won by the coalition collectively. If such a coalition dissolves, each market will again represent its respective party individually.",
+   "end_date": "2026-09-20T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 106033.40652
+  },
+  {
+   "market_id": "2046126",
+   "question": "Will New People (NL) win the second-most seats in the next Russian parliamentary election?",
+   "slug": "will-new-people-nl-win-the-second-most-seats-in-the-next-russian-parliamentary-election",
+   "description": "Parliamentary elections are scheduled to be held in Russia in September 2026.\n\nThis market will resolve according to the political party that wins the second greatest number of seats in the next Russian State Duma election.\n\nIf the results are not known definitively by September 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe named parties or coalitions will be primarily ranked by the number of seats won in the specified election. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party abbreviations. This market will resolve to the party that occupies the second finishing position after applying this ranking.\n\nThis market's resolution will be based solely on the number of seats won by the named party in the State Duma of the Federal Assembly of the Russian Federation.\n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by Russian government sources such as the Central Election Commission of the Russian Federation.\n\nNote: If a listed party contests the election as part of a jointly listed coalition with one or more parties not listed in this market, the market corresponding to the listed party will represent the coalition and will count all seats won by the coalition collectively. If two or more listed parties contest the election as a jointly listed coalition, with or without additional parties not listed in this market, the market corresponding to the party within that coalition that won the most seats in the previous election will represent the coalition and will count all seats won by the coalition collectively. If such a coalition dissolves, each market will again represent its respective party individually.",
+   "end_date": "2026-09-20T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 98556.36406
+  },
+  {
+   "market_id": "4052415",
+   "question": "Will Bitcoin reach $95,000 in September?",
+   "slug": "will-bitcoin-reach-95k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 96474.76993
+  },
+  {
+   "market_id": "608540",
+   "question": "Will Kylian Mbappé win the 2026 Ballon d'Or?",
+   "slug": "will-kylian-mbapp-win-the-2026-ballon-dor",
+   "description": "This market will resolve according to the winner of the 2026 Ballon d’Or.\n\nIf no 2026 Ballon d’Or winner is declared by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market is official information from France Football (https://www.francefootball.fr/).",
+   "end_date": "2026-10-31T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 96254.16709
+  },
+  {
+   "market_id": "2646914",
+   "question": "Will no qualifying diplomatic US-Iran meeting occur by September 30, 2026?",
+   "slug": "will-no-qualifying-diplomatic-us-iran-meeting-occur-by-september-30-2026-20260622185050763",
+   "description": "On June 22, the first round of U.S.-Iran diplomatic talks in Switzerland concluded, with mediators reporting progress toward a roadmap for a final deal and follow-on technical talks expected to continue (see: https://www.aljazeera.com/news/2026/6/22/us-iran-agree-on-roadmap-towards-final-deal-in-switzerland-talks).\n\nThis market will resolve according to the country in which the next formal senior-level round of peace talks between representatives of the United States and Iran begins by September 30, 2026, 11:59 PM ET.\n\nA qualifying round must be a deliberate in-person diplomatic meeting or negotiating round concerning US-Iran relations, involving senior representatives of both the United States and Iran who are acting in an official capacity and are authorized to conduct or materially direct diplomacy on behalf of their governments.\n\nIndirect in-person diplomacy through designated mediators, facilitators, or interlocutors will qualify, provided senior representatives of both the United States and Iran are participating in the same formal diplomatic process with the knowledge and authorization of their respective governments. The representatives need not be in the same room at the same time.\n\nFollow-on technical talks from the June 22 Switzerland round will not qualify by themselves. Technical, staff-level, working-group, implementation, monitoring, preparatory, or deconfliction meetings will not qualify unless they occur as part of a new formally convened senior-level U.S.-Iran peace-talks round.\n\nBrief greetings, chance encounters, photo opportunities, ceremonial appearances, or talks not deliberately aimed at diplomacy or negotiation will not count.\n\nThe meeting must be in-person (including indirect in-person meetings) and must be publicly acknowledged by either government or reported by a consensus of credible media. Remote meetings, phone calls, or other meetings where the relevant parties are not present will not count.\n\nIf a qualifying round occurs in more than one country, resolution will be based on the country where the first qualifying senior-level diplomatic session begins.\n\nIf the next qualifying round begins in any country in the Middle East or North Africa other than the listed options, this market will resolve to “Other - Middle East/North Africa.”\n\nIf the next qualifying round begins in any country in Europe other than the listed options, this market will resolve to “Other - Europe.”\n\nFor purposes of this market, countries’ regions will be determined based on the U.S. State Department’s regional classifications in the “Countries and Areas List” (https://www.state.gov/countries-and-areas-list). Any country classified as part of “Europe and Eurasia” will be considered to be in Europe. Any country classified as part of “Near East (Middle East and North Africa)” will be considered to be in the Middle East/North Africa.\n\nIf the next qualifying round begins in any unlisted country that is not classified in either specified region, this market will resolve to “Other.”\n\nIf no qualifying round begins by September 30, 2026, 11:59 PM ET, this market will resolve to “No Meeting by September 30.”\n\nThe resolution sources for this market will be official information from the governments of the United States and Iran, and a consensus of credible reporting.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 94527.5217
+  },
+  {
+   "market_id": "3501951",
+   "question": "Strait of Hormuz traffic returns to normal by November 30?",
+   "slug": "strait-of-hormuz-traffic-returns-to-normal-by-november-30-20260810151158765",
+   "description": "This market will resolve to “Yes” if IMF Portwatch publishes a 7-day moving average of transit calls (“Arrivals of Ships”) for the Strait of Hormuz equal to or above 60 for any date between market creation and November 30, 2026. Otherwise, this market will resolve to “No”.\n\nDaily transit calls include container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nThis market will resolve as soon as IMF Portwatch publishes a 7-day moving average of transit calls equal to or above the specified level, or once data has been published for the final date in the specified period and no such value has been published. If no data has been published for the final date of the specified period within 14 calendar days (ET) after the end of that period, this market will resolve based on data published up to that point.\n\nRevisions to previously published data points made within this market’s timeframe will be considered. However, they will not disqualify a previously published data point from qualifying. Revisions to previously published data points after data is published for November 30, 2026, however, will not be considered.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data, and do not include cases where IMF Portwatch differs from alternative sources.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Strait of Hormuz at https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730, both in the chart and through downloadable files.",
+   "end_date": "2026-11-30T23:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 92420.8656
+  },
+  {
+   "market_id": "3128887",
+   "question": "US announces end of Iranian blockade by September 30, 2026?",
+   "slug": "us-announces-end-of-iranian-blockade-by-september-30-2026-20260727171615364-722-649-646-561-213-644-414-831",
+   "description": "On July 13, 2026, Trump announced the United States would reinstate its naval blockade of Iran, targeting Iranian ships and customers.\n\nThis market will resolve to “Yes” if the United States government, or an authorized representative of the United States government, publicly and officially announces the end, termination, lifting, or suspension of the United States’ naval blockade on Iranian ships and ships of Iranian customers, between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAn announcement qualifies if it communicates that the United States will generally cease blocking vessel traffic for Iranian ships and customers, including an announcement that the blockade will not take effect at all, even if some restrictions remain (for example, an imposition of fees). An announcement does not qualify if it reflects only a limited or partial change that stops short of a general end or suspension of the blockade, for example, an exemption for a specific vessel, cargo, or port.\n\nA qualifying announcement must be a declarative statement of the United States government’s present termination or suspension of the blockade, previously-unannounced prior termination or suspension of the blockade, or definitive decision to terminate or suspend the blockade.\n\nA qualifying announcement must clearly and unambiguously identify the end or suspension of the blockade. Statements that merely allude to, reference, or describe an end to the blockade, without clearly communicating it, do not qualify. The announcement need not use specific terminology or reference the end of a blockade by name; an announcement of a resumption of prior obligations, the maintenance of a status quo, or a return to a previously agreed baseline qualifies, provided the substantive policy of ending or suspending the blockade is clearly and unambiguously communicated.\n\nA qualifying announcement must be made through official channels, by an individual acting in an official capacity. Statements made incidentally or informally in a context not intended for official communication do not qualify.\n\nThe following do not qualify:\n\nAnonymous, unattributed, or leaked statements not confirmed as official;\nStatements by persons not authorized to speak for the United States government;\nThird-party speculation, analysis, or predictions that the United States government will announce or implement an end to the blockade;\nSatirical, fabricated, hacked, or impersonated communications; and\nStatements that describe a prospective, contingent, probable, or conditional end to the blockade rather than announcing a present and decided position.\n\nOnce a qualifying announcement is made, this market will resolve to “Yes” regardless of whether it is later reversed, or whether the blockade actually ends in practice.\n\nResolution will be based on official information from the United States government, including the President, the Department of Defense, the Department of State, and United States Central Command (CENTCOM), or the official representatives of the United States government.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 91846.5318
+  },
+  {
+   "market_id": "4052416",
+   "question": "Will Bitcoin reach $92,500 in September?",
+   "slug": "will-bitcoin-reach-92pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 91050.1596
+  },
+  {
+   "market_id": "4052420",
+   "question": "Will Bitcoin reach $82,500 in September?",
+   "slug": "will-bitcoin-reach-82pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 88088.7328
+  },
+  {
+   "market_id": "648383",
+   "question": "Billionaire one-time wealth tax passes in California election 2026?",
+   "slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+   "description": "A one-time wealth tax on billionaires has been proposed to potentially appear on California's ballot for the November 3, 2026 general election. You can read more about that here: https://6abc.com/post/california-union-proposes-taxing-billionaires-offset-medicaid-cuts-low-income-people/18066430/\n\nThis market will resolve to \"Yes\" if any proposition containing a one-time tax targeting individuals, households, or family units with wealth, assets, or net worth of at least $1 billion (USD or equivalent) passes in the named election. Otherwise, this market will resolve to \"No\".\n\nIf no qualifying ballot initiative is certified to appear on the official statewide California ballot as a proposition to be voted on in the stated election by June 25, 2026, 11:59 PM ET (the official cutoff date for new initiatives to be approved), or if all qualifying propositions/initiatives are removed from the ballot or amended before the election such that the main threshold drops below $1 billion, this market will resolve \"No\".\n\nThe primary resolution source for this market will be official information from the Government of the State of California, however a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 84547.0663
+  },
+  {
+   "market_id": "3399450",
+   "question": "Iran leadership change by October 31?",
+   "slug": "iran-leadership-change-by-october-31",
+   "description": "This market will resolve to \"Yes\" if the Supreme Leader of Iran, Mojtaba Khamenei, ceases to be the de facto leader of Iran at any point between market creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nMojtaba Khamenei will be considered to no longer be the de facto leader of Iran if he is removed from power, is detained, or otherwise loses his position or is prevented from acting as the de facto leader of Iran within this market's timeframe.\n\nAn official announcement of Mojtaba Khamenei’s resignation or removal will qualify for a \"Yes\" resolution regardless of when the announced departure goes into effect.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+   "end_date": "2026-11-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 82882.6315
+  },
+  {
+   "market_id": "2243896",
+   "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
+   "slug": "russia-x-ukraine-ceasefire-agreement-by-october-31-2026",
+   "description": "This market will resolve to “Yes” if there is a ceasefire agreement between Russia and Ukraine by the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA ceasefire agreement refers to any mutually-agreed suspension of direct military engagement between Russia and Ukraine, which is either officially announced by both countries or confirmed by a consensus of credible reporting to have been mutually agreed by both countries.\n\nA broader peace deal, normalization agreement, political framework, truce, or humanitarian pause will qualify if it includes a mutually agreed suspension of direct military engagement, to be effective on a specified date. Agreements that outline future negotiations or de-escalation measures without an explicit, dated commitment to stop fighting will not qualify.\n\nAny form of informal understanding, backchannel communication, de-escalation without an announced agreement, or unilateral pause in hostilities will not be considered a ceasefire agreement.\n\nOnly agreements which constitute a general pause in the conflict will qualify. Agreements which only apply to specific conflict categories (e.g. restrictions on certain target categories or certain locations) will not qualify.\n\nIf a qualifying agreement is officially reached before this market’s end date, this market will resolve to “Yes,” regardless of whether the ceasefire agreement officially takes effect after that date.\n\nThe primary resolution sources for this market will be official information from the governments of Russia and Ukraine and a consensus of credible reporting.",
+   "end_date": "2026-11-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 82839.2963
+  },
+  {
+   "market_id": "2243896",
+   "question": "Russia x Ukraine ceasefire agreement by October 31, 2026?",
+   "slug": "russia-x-ukraine-ceasefire-agreement-by-october-31-2026",
+   "description": "This market will resolve to “Yes” if there is a ceasefire agreement between Russia and Ukraine by the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA ceasefire agreement refers to any mutually-agreed suspension of direct military engagement between Russia and Ukraine, which is either officially announced by both countries or confirmed by a consensus of credible reporting to have been mutually agreed by both countries.\n\nA broader peace deal, normalization agreement, political framework, truce, or humanitarian pause will qualify if it includes a mutually agreed suspension of direct military engagement, to be effective on a specified date. Agreements that outline future negotiations or de-escalation measures without an explicit, dated commitment to stop fighting will not qualify.\n\nAny form of informal understanding, backchannel communication, de-escalation without an announced agreement, or unilateral pause in hostilities will not be considered a ceasefire agreement.\n\nOnly agreements which constitute a general pause in the conflict will qualify. Agreements which only apply to specific conflict categories (e.g. restrictions on certain target categories or certain locations) will not qualify.\n\nIf a qualifying agreement is officially reached before this market’s end date, this market will resolve to “Yes,” regardless of whether the ceasefire agreement officially takes effect after that date.\n\nThe primary resolution sources for this market will be official information from the governments of Russia and Ukraine and a consensus of credible reporting.",
+   "end_date": "2026-11-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 82821.1235
+  },
+  {
+   "market_id": "3399450",
+   "question": "Iran leadership change by October 31?",
+   "slug": "iran-leadership-change-by-october-31",
+   "description": "This market will resolve to \"Yes\" if the Supreme Leader of Iran, Mojtaba Khamenei, ceases to be the de facto leader of Iran at any point between market creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nMojtaba Khamenei will be considered to no longer be the de facto leader of Iran if he is removed from power, is detained, or otherwise loses his position or is prevented from acting as the de facto leader of Iran within this market's timeframe.\n\nAn official announcement of Mojtaba Khamenei’s resignation or removal will qualify for a \"Yes\" resolution regardless of when the announced departure goes into effect.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+   "end_date": "2026-11-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 82409.6331
+  },
+  {
+   "market_id": "1365904",
+   "question": "Will Augusto Cury finish in third place in the first round of the 2026 Brazilian presidential election?",
+   "slug": "will-augusto-cury-finish-in-third-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the third-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the third-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 78555.73394
+  },
+  {
+   "market_id": "4052417",
+   "question": "Will Bitcoin reach $90,000 in September?",
+   "slug": "will-bitcoin-reach-90k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 78521.6684
+  },
+  {
+   "market_id": "3008494",
+   "question": "Will Anthropic have the best AI model at the end of September 2026?",
+   "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-september-2026-20260717143137053",
+   "description": "This market will resolve according to the company which owns the model which has the highest arena rank based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on September 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 77621.4171
+  },
+  {
+   "market_id": "3399451",
+   "question": "Iran leadership change by November 30?",
+   "slug": "iran-leadership-change-by-november-30",
+   "description": "This market will resolve to \"Yes\" if the Supreme Leader of Iran, Mojtaba Khamenei, ceases to be the de facto leader of Iran at any point between market creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nMojtaba Khamenei will be considered to no longer be the de facto leader of Iran if he is removed from power, is detained, or otherwise loses his position or is prevented from acting as the de facto leader of Iran within this market's timeframe.\n\nAn official announcement of Mojtaba Khamenei’s resignation or removal will qualify for a \"Yes\" resolution regardless of when the announced departure goes into effect.\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+   "end_date": "2026-12-01T04:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 77126.7698
+  },
+  {
+   "market_id": "4052423",
+   "question": "Will Bitcoin dip to $75,000 in September?",
+   "slug": "will-bitcoin-dip-to-75k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 74513.0926
+  },
+  {
+   "market_id": "3399458",
+   "question": "Israel x Iran ceasefire continues through September 30?",
+   "slug": "israel-x-iran-ceasefire-continues-through-september-30",
+   "description": "This market will resolve to \"Yes\" if a state of ceasefire remains in effect between Israel and Iran through the listed date, 11:59 PM Iran Standard Time (IRST). Otherwise this market will resolve to “No”. \n\nA state of ceasefire will be considered to no longer be in effect between Israel and Iran if either Israel or Iran takes a qualifying military action against the other country between market creation and the listed date, 11:59 PM IRST.\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Israel or Iran, that directly impacts the other country. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Israel or Iran do not constitute a military action regardless of any damage incurred.\n\nA military action will be considered to impact Israel or Iran if it directly impacts the terrestrial territory of Israel or Iran, including any internal waters. Maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of the relevant state as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (IRST) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. If, at the end of the third calendar day, conflicting reports remain as to the occurrence, attribution, or timing of the action, this market will resolve based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Israel and Iran and credible reporting.",
+   "end_date": "2026-09-30T20:29:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 74472.8358
+  },
+  {
+   "market_id": "2646919",
+   "question": "Will the next diplomatic US-Iran meeting be in Switzerland by September 30, 2026?",
+   "slug": "will-the-next-diplomatic-us-iran-meeting-be-in-switzerland-by-september-30-2026-20260622185050768",
+   "description": "On June 22, the first round of U.S.-Iran diplomatic talks in Switzerland concluded, with mediators reporting progress toward a roadmap for a final deal and follow-on technical talks expected to continue (see: https://www.aljazeera.com/news/2026/6/22/us-iran-agree-on-roadmap-towards-final-deal-in-switzerland-talks).\n\nThis market will resolve according to the country in which the next formal senior-level round of peace talks between representatives of the United States and Iran begins by September 30, 2026, 11:59 PM ET.\n\nA qualifying round must be a deliberate in-person diplomatic meeting or negotiating round concerning US-Iran relations, involving senior representatives of both the United States and Iran who are acting in an official capacity and are authorized to conduct or materially direct diplomacy on behalf of their governments.\n\nIndirect in-person diplomacy through designated mediators, facilitators, or interlocutors will qualify, provided senior representatives of both the United States and Iran are participating in the same formal diplomatic process with the knowledge and authorization of their respective governments. The representatives need not be in the same room at the same time.\n\nFollow-on technical talks from the June 22 Switzerland round will not qualify by themselves. Technical, staff-level, working-group, implementation, monitoring, preparatory, or deconfliction meetings will not qualify unless they occur as part of a new formally convened senior-level U.S.-Iran peace-talks round.\n\nBrief greetings, chance encounters, photo opportunities, ceremonial appearances, or talks not deliberately aimed at diplomacy or negotiation will not count.\n\nThe meeting must be in-person (including indirect in-person meetings) and must be publicly acknowledged by either government or reported by a consensus of credible media. Remote meetings, phone calls, or other meetings where the relevant parties are not present will not count.\n\nIf a qualifying round occurs in more than one country, resolution will be based on the country where the first qualifying senior-level diplomatic session begins.\n\nIf the next qualifying round begins in any country in the Middle East or North Africa other than the listed options, this market will resolve to “Other - Middle East/North Africa.”\n\nIf the next qualifying round begins in any country in Europe other than the listed options, this market will resolve to “Other - Europe.”\n\nFor purposes of this market, countries’ regions will be determined based on the U.S. State Department’s regional classifications in the “Countries and Areas List” (https://www.state.gov/countries-and-areas-list). Any country classified as part of “Europe and Eurasia” will be considered to be in Europe. Any country classified as part of “Near East (Middle East and North Africa)” will be considered to be in the Middle East/North Africa.\n\nIf the next qualifying round begins in any unlisted country that is not classified in either specified region, this market will resolve to “Other.”\n\nIf no qualifying round begins by September 30, 2026, 11:59 PM ET, this market will resolve to “No Meeting by September 30.”\n\nThe resolution sources for this market will be official information from the governments of the United States and Iran, and a consensus of credible reporting.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 73478.26136
+  },
+  {
+   "market_id": "4052414",
+   "question": "Will Bitcoin reach $97,500 in September?",
+   "slug": "will-bitcoin-reach-97pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 72059.00419
+  },
+  {
+   "market_id": "1395706",
+   "question": "Will Cleveland Guardians win the 2026 American League Championship Series?",
+   "slug": "will-cleveland-guardians-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 71540.50445
+  },
+  {
+   "market_id": "4052432",
+   "question": "Will Bitcoin dip to $62,500 in September?",
+   "slug": "will-bitcoin-dip-to-62pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 70633.26035
+  },
+  {
+   "market_id": "1395727",
+   "question": "Will Milwaukee Brewers win the 2026 National League Championship Series?",
+   "slug": "will-milwaukee-brewers-win-the-2026-national-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 National League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 70090.71401
+  },
+  {
+   "market_id": "4052418",
+   "question": "Will Bitcoin reach $87,500 in September?",
+   "slug": "will-bitcoin-reach-87pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT High prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 69917.7206
+  },
+  {
+   "market_id": "4052434",
+   "question": "Will Bitcoin dip to $60,000 in September?",
+   "slug": "will-bitcoin-dip-to-60k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 69826.04007
+  },
+  {
+   "market_id": "4052446",
+   "question": "Will Ethereum reach $3,200 in September?",
+   "slug": "will-ethereum-reach-3200-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT High prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 69265.38885
+  },
+  {
+   "market_id": "1282928",
+   "question": "Will the Republican Party win the CT-03 House seat?",
+   "slug": "will-the-republican-party-win-the-ct-03-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the CT-03 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 69121.4297
+  },
+  {
+   "market_id": "1395732",
+   "question": "Will Los Angeles Dodgers win the 2026 National League Championship Series?",
+   "slug": "will-los-angeles-dodgers-win-the-2026-national-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 National League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 69118.3711
+  },
+  {
+   "market_id": "4052460",
+   "question": "Will Ethereum dip to $1,800 in September?",
+   "slug": "will-ethereum-dip-to-1800-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT Low prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68924.65585
+  },
+  {
+   "market_id": "4052447",
+   "question": "Will Ethereum reach $3,100 in September?",
+   "slug": "will-ethereum-reach-3100-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT High prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68827.97495
+  },
+  {
+   "market_id": "3399459",
+   "question": "Israel x Iran ceasefire continues through October 31?",
+   "slug": "israel-x-iran-ceasefire-continues-through-october-31",
+   "description": "This market will resolve to \"Yes\" if a state of ceasefire remains in effect between Israel and Iran through the listed date, 11:59 PM Iran Standard Time (IRST). Otherwise this market will resolve to “No”. \n\nA state of ceasefire will be considered to no longer be in effect between Israel and Iran if either Israel or Iran takes a qualifying military action against the other country between market creation and the listed date, 11:59 PM IRST.\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Israel or Iran, that directly impacts the other country. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Israel or Iran do not constitute a military action regardless of any damage incurred.\n\nA military action will be considered to impact Israel or Iran if it directly impacts the terrestrial territory of Israel or Iran, including any internal waters. Maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of the relevant state as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (IRST) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. If, at the end of the third calendar day, conflicting reports remain as to the occurrence, attribution, or timing of the action, this market will resolve based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Israel and Iran and credible reporting.",
+   "end_date": "2026-10-31T20:29:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68559.8641
+  },
+  {
+   "market_id": "4190831",
+   "question": "Will Bitcoin dip to $77,500 in September?",
+   "slug": "will-bitcoin-dip-to-77pt5k-in-september-2026-from-september-3",
+   "description": "This market will resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT from the creation of this market through 11:59 PM ET on the last day of the month specified in the title has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No\". Price action before this market's creation will not be considered.\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68467.1262
+  },
+  {
+   "market_id": "637004",
+   "question": "Will Yulia Navalnaya win the Nobel Peace Prize in 2026?",
+   "slug": "will-yulia-navalnaya-win-the-nobel-peace-prize-in-2026-261",
+   "description": "This market will resolve according to the winner of the 2026 Nobel Peace Prize, as announced by the Norwegian Nobel Committee.\n\nIf multiple listed individuals or entities jointly receive the prize, the market will resolve to a single winner. If Donald Trump, Volodymyr Zelenskyy,  Benjamin Netanyahu, Vladimir Putin, or Elon Musk are among the recipients, the market will resolve to the highest-ranked among them in that exact order of precedence. If none of those five are among the winners and the prize is awarded jointly to at least one listed individual and at least one listed organization, the market will resolve in favor of the individual. If no prioritized individuals are among the winners and all listed recipients are of the same type (all individuals or all organizations), the market will resolve to the person whose last name, or the entity’s name, comes first in alphabetical order as listed in this market.\n\nIf no official announcement regarding the 2026 Nobel Peace Prize has been made by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other.\"\n\nThe resolution source for this market will be the first official announcement from the Norwegian Nobel Committee.",
+   "end_date": "2026-10-10T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68392.375
+  },
+  {
+   "market_id": "1283313",
+   "question": "Will the Democratic Party win the ID-02 House seat?",
+   "slug": "will-the-democratic-party-win-the-id-02-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the ID-02 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68382.2751
+  },
+  {
+   "market_id": "1282776",
+   "question": "Will the Republican Party win the CA-42 House seat?",
+   "slug": "will-the-republican-party-win-the-ca-42-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the CA-42 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68095.0578
+  },
+  {
+   "market_id": "1395701",
+   "question": "Will Boston Red Sox win the 2026 American League Championship Series?",
+   "slug": "will-boston-red-sox-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 68039.65663
+  },
+  {
+   "market_id": "2658303",
+   "question": "Mojtaba Khamenei seen in public by September 30?",
+   "slug": "mojtaba-khamenei-seen-in-public-by-september-30-944",
+   "description": "This market will resolve to \"Yes\" if Supreme Leader of Iran, Mojtaba Khamenei, is photographed or videotaped between market creation and the listed date (ET). Otherwise, this market will resolve to \"No\".\n\nFor this market to resolve to \"Yes,\" the images or video must be taken and released within this market's timeframe. The images or video must be authentic. Archival material, previously recorded footage, reused images, digitally altered content, AI-generated media, staged reproductions, or any posthumous releases will not qualify.\n\nDigital appearances, including live broadcasts, will count for this market.\n\nThe resolution source for this market will be the image/video of Mojtaba Khamenei, and a consensus of credible reporting as to whether it is real.",
+   "end_date": "2026-10-01T03:59:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 67920.72469
+  },
+  {
+   "market_id": "4052452",
+   "question": "Will Ethereum reach $2,600 in September?",
+   "slug": "will-ethereum-reach-2600-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT High prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 67356.7375
+  },
+  {
+   "market_id": "1283280",
+   "question": "Will the Republican Party win the HI-02 House seat?",
+   "slug": "will-the-republican-party-win-the-hi-02-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the HI-02 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 67138.6574
+  },
+  {
+   "market_id": "1280825",
+   "question": "Will the Democratic Party win the AL-05 House seat?",
+   "slug": "will-the-democratic-party-win-the-al-05-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the AL-05 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 66876.5777
+  },
+  {
+   "market_id": "1280865",
+   "question": "Will the Democratic Party win the AR-03 House seat?",
+   "slug": "will-the-democratic-party-win-the-ar-03-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the AR-03 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 66492.2597
+  },
+  {
+   "market_id": "4052429",
+   "question": "Will Bitcoin dip to $67,500 in September?",
+   "slug": "will-bitcoin-dip-to-67pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 66313.3797
+  },
+  {
+   "market_id": "4052427",
+   "question": "Will Bitcoin dip to $70,000 in September?",
+   "slug": "will-bitcoin-dip-to-70k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 66013.1596
+  },
+  {
+   "market_id": "1395720",
+   "question": "Will Atlanta Braves win the 2026 National League Championship Series?",
+   "slug": "will-atlanta-braves-win-the-2026-national-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 National League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 65841.1948
+  },
+  {
+   "market_id": "1395725",
+   "question": "Will Chicago Cubs win the 2026 National League Championship Series?",
+   "slug": "will-chicago-cubs-win-the-2026-national-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 National League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 National League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 National League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 65199.6757
+  },
+  {
+   "market_id": "1284528",
+   "question": "Will the Democratic Party win the OR-02 House seat?",
+   "slug": "will-the-democratic-party-win-the-or-02-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the OR-02 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64907.6801
+  },
+  {
+   "market_id": "1283433",
+   "question": "Will the Democratic Party win the IL-15 House seat?",
+   "slug": "will-the-democratic-party-win-the-il-15-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the IL-15 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64821.8252
+  },
+  {
+   "market_id": "1283946",
+   "question": "Will the Democratic Party win the MO-07 House seat?",
+   "slug": "will-the-democratic-party-win-the-mo-07-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the MO-07 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64798.398
+  },
+  {
+   "market_id": "1283416",
+   "question": "Will the Republican Party win the IL-13 House seat?",
+   "slug": "will-the-republican-party-win-the-il-13-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the IL-13 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64657.3676
+  },
+  {
+   "market_id": "1283376",
+   "question": "Will the Republican Party win the IL-08 House seat?",
+   "slug": "will-the-republican-party-win-the-il-08-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the IL-08 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64609.2239
+  },
+  {
+   "market_id": "1395714",
+   "question": "Will Texas Rangers win the 2026 American League Championship Series?",
+   "slug": "will-texas-rangers-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64549.75381
+  },
+  {
+   "market_id": "1281108",
+   "question": "Will the Republican Party win the CA-26 House seat?",
+   "slug": "will-the-republican-party-win-the-ca-26-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the CA-26 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64494.1718
+  },
+  {
+   "market_id": "1365894",
+   "question": "Will Renan Santos finish in third place in the first round of the 2026 Brazilian presidential election?",
+   "slug": "will-renan-santos-finish-in-third-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the third-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the third-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64343.9054
+  },
+  {
+   "market_id": "1284640",
+   "question": "Will the Democratic Party win the PA-15 House seat?",
+   "slug": "will-the-democratic-party-win-the-pa-15-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the PA-15 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64331.2576
+  },
+  {
+   "market_id": "789952",
+   "question": "Will CDU win the most seats in the 2026 Berlin state elections?",
+   "slug": "will-cdu-win-the-most-seats-in-the-2026-berlin-state-elections",
+   "description": "Parliamentary elections to elect the Abgeordnetehaus of Berlin are scheduled to take place in Berlin on September 20, 2026.\n\nThis market will resolve to the political party that wins the greatest number of seats in the formal deliberative assembly of Berlin (Abgeordnetenhaus) as a result of this election.\n\nIf voting in the Berlin election for the Abgeordnetenhaus does not occur by December 31, 2026, this market will resolve to \"Other\".\n\nIn the case of a tie between this party or coalition and any other for the most seats won, this market will resolve in favor of the party or coalition whose listed abbreviation comes first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition.\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Election Office of Berlin (Landeswahlleiter Berlin https://www.berlin.de/wahlen/)",
+   "end_date": "2026-09-20T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64264.4572
+  },
+  {
+   "market_id": "1395710",
+   "question": "Will Houston Astros win the 2026 American League Championship Series?",
+   "slug": "will-houston-astros-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64214.73788
+  },
+  {
+   "market_id": "4052425",
+   "question": "Will Bitcoin dip to $72,500 in September?",
+   "slug": "will-bitcoin-dip-to-72pt5k-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for BTC/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final Low price equal to or lower than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the BTC/USDT Low prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTC/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 64041.2776
+  },
+  {
+   "market_id": "1365861",
+   "question": "Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?",
+   "slug": "will-flvio-bolsonaro-finish-in-second-place-in-the-first-round-of-the-2026-brazilian-presidential-election",
+   "description": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the second-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the second-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+   "end_date": "2026-10-04T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63595.0535
+  },
+  {
+   "market_id": "1283265",
+   "question": "Will the Democratic Party win the GA-14 House seat?",
+   "slug": "will-the-democratic-party-win-the-ga-14-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the GA-14 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63369.5991
+  },
+  {
+   "market_id": "1284178",
+   "question": "Will the Republican Party win the NJ-11 House seat?",
+   "slug": "will-the-republican-party-win-the-nj-11-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the NJ-11 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63348.768
+  },
+  {
+   "market_id": "1283177",
+   "question": "Will the Democratic Party win the GA-03 House seat?",
+   "slug": "will-the-democratic-party-win-the-ga-03-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the GA-03 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63163.8409
+  },
+  {
+   "market_id": "1283089",
+   "question": "Will the Democratic Party win the FL-19 House seat?",
+   "slug": "will-the-democratic-party-win-the-fl-19-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the FL-19 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63113.519
+  },
+  {
+   "market_id": "1395705",
+   "question": "Will Chicago White Sox win the 2026 American League Championship Series?",
+   "slug": "will-chicago-white-sox-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 63031.10858
+  },
+  {
+   "market_id": "1283752",
+   "question": "Will the Republican Party win the MD-06 House seat?",
+   "slug": "will-the-republican-party-win-the-md-06-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the MD-06 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 62834.6872
+  },
+  {
+   "market_id": "1395703",
+   "question": "Will Tampa Bay Rays win the 2026 American League Championship Series?",
+   "slug": "will-tampa-bay-rays-win-the-2026-american-league-championship-series",
+   "description": "This market will resolve according to the team that wins the 2026 American League Championship Series.\n\nIf at any point it becomes impossible for a listed team to win the 2026 American League Championship Series per the rules of the MLB (e.g., they are eliminated in the playoffs), the corresponding market will resolve to “No”.\n\nIf the 2026 American League Championship Series is cancelled, postponed after November 31, 2026, 11:59 PM ET, or there is otherwise no winner declared within that timeframe, this market will resolve to “Other”.\n\nThe primary resolution source will be official information from Major League Baseball (https://www.mlb.com/); however, a consensus of credible reporting may also be used.",
+   "end_date": "2026-11-01T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 62656.66997
+  },
+  {
+   "market_id": "4052445",
+   "question": "Will Ethereum reach $3,300 in September?",
+   "slug": "will-ethereum-reach-3300-in-september-2026",
+   "description": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for ETH/USDT during the month specified in the title (from 00:00 AM ET on the first day to 11:59 PM ET on the last), has a final High price equal to or greater than the price specified in the title. Otherwise, this market will resolve to \"No.\"\n\nThe resolution source for this market is Binance, specifically the ETH/USDT High prices available at https://www.binance.com/en/trade/ETH_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance ETH/USDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+   "end_date": "2026-10-01T04:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 62572.646
+  },
+  {
+   "market_id": "1284162",
+   "question": "Will the Republican Party win the NJ-08 House seat?",
+   "slug": "will-the-republican-party-win-the-nj-08-house-seat",
+   "description": "This market will resolve according to the party of the candidate who wins the NJ-08 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+   "end_date": "2026-11-03T00:00:00Z",
+   "outcome_yes": "Yes",
+   "liquidity": 62507.3761
+  }
+ ]
+}

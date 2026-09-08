@@ -3,3 +3,22 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-09-08,2026-09-08T00:04:26+00:00,2589811,,0.0335,gemini-3.8-flash,1,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-08,2026-09-08T00:04:26+00:00,2264327,,0.055,gemini-3.8-flash,1,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-08,2026-09-08T00:04:26+00:00,608547,,0.6395,gemini-3.8-flash,1,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-08,2026-09-08T07:57:56+00:00,2252244,,0.485,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,2252245,0.02,0.515,gemini-3.8-flash,0,"Fed'in 2024'ün sonlarında başlattığı faiz indirimi döngüsünün ardından, 2026 yılı genelinde para politikasının ana odağı faiz indirimlerinin boyutu veya faizlerin nötr seviyede sabit tutulması üzerinedir. Eylül 2026 toplantısına yalnızca bir hafta kala, enflasyonda ani ve kontrolsüz bir sıçrama yaşanmadığı gibi Fed yetkililerinin (örneğin Jackson Hole sempozyumunda) faiz artırımına yönelik herhangi bir sözlü yönlendirmesi olmamıştır. FOMC'nin piyasaları şaşırtacak şekilde ani bir faiz artırımına gitme olasılığı tarihsel emsaller ve mevcut makroekonomik eğilimler göz önüne alındığında yok denec",
+2026-09-08,2026-09-08T07:57:56+00:00,562802,,0.875,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,562803,,0.135,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,1130012,,0.685,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,2589813,0.03,0.305,gemini-3.8-flash,0,"Federal Rezerv'in 2024 sonlarında başlattığı parasal gevşeme ve normalleşme döngüsü sonrasında, 2026 yılı genelinde para politikasının gevşek ya da nötr faiz seviyelerinde dengelenmesi veya faiz indirimlerine devam edilmesi beklenmektedir. Bir faiz artışı yapılabilmesi için enflasyonda belirgin ve kalıcı bir yeniden hızlanma veya ciddi bir ekonomik aşırı ısınma şoku gerekmektedir. Makroekonomik projeksiyonlar ve tarihsel döngüler dikkate alındığında, Ekim 2026 FOMC toplantısında Fed'in politika faizini 25 baz puan artırma olasılığı oldukça düşüktür.",
+2026-09-08,2026-09-08T07:57:56+00:00,2589812,,0.675,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,562830,,0.355,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,562831,0.25,0.125,gemini-3.8-flash,0,"2026 ara seçimleri öncesinde Cumhuriyetçiler hem Senato'da (53-47) hem de Temsilciler Meclisi'nde çok az farkla çoğunluğa sahiptir. ABD ara seçimlerinde Beyaz Saray'ı kontrol eden partinin Meclis'te koltuk kaybetmesi güçlü bir tarihsel kuraldır ve mevcut kıl payı çoğunluk göz önüne alındığında Demokratların Temsilciler Meclisi'ni geri alma ihtimali oldukça yüksektir. Senato haritasında ise Cumhuriyetçiler 53 sandalyelik tampona sahip olsa da, Temsilciler Meclisi'ni koruyabilmeleri için alışılmışın dışında güçlü bir ulusal rüzgar gerekmektedir; böyle bir senaryoda Senato çoğunluğunu korumaları ",
+2026-09-08,2026-09-08T07:57:56+00:00,601819,,0.565,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,3701690,,0.964,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,562793,,0.515,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,562794,,0.485,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,601826,,0.4215,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-08,2026-09-08T07:57:56+00:00,1130015,,0.0415,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-08,2026-09-08T07:57:56+00:00,608545,,0.1445,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-08,2026-09-08T07:57:56+00:00,562828,,0.515,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-08,2026-09-08T07:57:56+00:00,3501950,,0.075,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-08,2026-09-08T07:57:56+00:00,1130016,,0.2565,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
