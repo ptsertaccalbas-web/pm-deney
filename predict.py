@@ -36,7 +36,7 @@ GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 GEMINI_GROUNDING = os.environ.get("GEMINI_GROUNDING", "1") == "1"
 GEMINI_SLEEP = float(os.environ.get("GEMINI_SLEEP", "12"))  # ücretsiz katman RPM limiti için
-GEMINI_MAX_RETRIES = int(os.environ.get("GEMINI_MAX_RETRIES", "4"))
+GEMINI_MAX_RETRIES = int(os.environ.get("GEMINI_MAX_RETRIES", "1"))  # kalıcı 429'da uzun bekleme faydasız
 GEMINI_MOCK = os.environ.get("GEMINI_MOCK") == "1"
 PREDICT_LIMIT = int(os.environ.get("PM_PREDICT_LIMIT", "0"))  # test: 0 = hepsi
 
@@ -281,7 +281,7 @@ def gemini_predict(question, description, end_date, today):
         except urllib.error.HTTPError as e:
             last_err = e
             if e.code == 429 or e.code >= 500:
-                wait = (2 ** attempt) * 15   # 15s, 30s, 60s, 120s...
+                wait = 15 * (attempt + 1)   # 15s, 30s — kalıcı kotada uzatmanın anlamı yok
                 print(f"  {e.code} alındı, {wait}s bekleyip tekrar denenecek ({attempt+1}/{GEMINI_MAX_RETRIES})", file=sys.stderr)
                 time.sleep(wait)
                 continue
@@ -304,6 +304,8 @@ def predict_all(doc, price_map, open_ids, run_ts):
     date = run_ts.strftime("%Y-%m-%d")
     os.makedirs(os.path.join(DATA_DIR, "pred_raw"), exist_ok=True)
     rows, errors, done = [], 0, 0
+    consecutive_429 = 0
+    circuit_open = False
     raw_path = os.path.join(DATA_DIR, "pred_raw", f"{date}.jsonl")
     with open(raw_path, "a", encoding="utf-8") as rawf:
         for u in doc["markets"]:
@@ -312,6 +314,8 @@ def predict_all(doc, price_map, open_ids, run_ts):
                 continue                      # kapanmış piyasaya tahmin üretme
             if PREDICT_LIMIT and done >= PREDICT_LIMIT:
                 break
+            if circuit_open:
+                break                          # kalıcı kota sorunu: kalanları deneme, zaman kaybetme
             done += 1
             row = {"date": date, "run_ts_utc": run_ts.isoformat(timespec="seconds"), "market_id": mid,
                    "p_hat": "", "market_price_yes": price_map.get(mid, ""), "model": GEMINI_MODEL,
@@ -324,6 +328,15 @@ def predict_all(doc, price_map, open_ids, run_ts):
                     raise ValueError("P_YES bulunamadı")
                 row["p_hat"] = p
                 row["rationale"] = re.sub(r"\s+", " ", text.split("P_YES")[0]).strip()[:600]
+                consecutive_429 = 0
+            except urllib.error.HTTPError as e:
+                errors += 1
+                row["note"] = f"HATA HTTPError: {e}"
+                if e.code == 429:
+                    consecutive_429 += 1
+                    if consecutive_429 >= 5:
+                        circuit_open = True
+                        row["note"] += " | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
             except Exception as e:
                 errors += 1
                 row["note"] = f"HATA {type(e).__name__}: {str(e)[:120]}"
