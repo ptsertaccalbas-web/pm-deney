@@ -2,3 +2,6 @@ run_ts_utc,status,rows,skipped,note
 2026-09-07T23:50:40+00:00,OK,100,0,
 2026-09-07T23:55:43+00:00,OK,100,0,
 2026-09-07T23:59:26+00:00,OK,100,0,
+2026-09-08T00:04:25+00:00,OK,100,0,
+2026-09-08T00:04:26+00:00,OK,4,0,"universe frozen; scanned=200 excluded={'parse': 0, 'sport': 43, 'date': 137, 'price': 15, 'yesno': 1}"
+2026-09-08T00:04:26+00:00,HATA,0,4,predict: snapshot_err=0 open=4 model=gemini-3.8-flash grounding=1
