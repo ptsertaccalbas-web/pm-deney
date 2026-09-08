@@ -35,7 +35,8 @@ PM_MOCK_FILE = os.environ.get("PM_MOCK_FILE")
 GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 GEMINI_GROUNDING = os.environ.get("GEMINI_GROUNDING", "1") == "1"
-GEMINI_SLEEP = float(os.environ.get("GEMINI_SLEEP", "7"))   # ücretsiz katman RPM limiti için
+GEMINI_SLEEP = float(os.environ.get("GEMINI_SLEEP", "12"))  # ücretsiz katman RPM limiti için
+GEMINI_MAX_RETRIES = int(os.environ.get("GEMINI_MAX_RETRIES", "4"))
 GEMINI_MOCK = os.environ.get("GEMINI_MOCK") == "1"
 PREDICT_LIMIT = int(os.environ.get("PM_PREDICT_LIMIT", "0"))  # test: 0 = hepsi
 
@@ -131,14 +132,22 @@ def fetch_candidates():
     if PM_MOCK_FILE:
         with open(PM_MOCK_FILE, encoding="utf-8") as f:
             return json.load(f)
-    out = []
-    for offset in range(0, 1000, 500):   # en likit 1000 aktif piyasa
-        url = f"{GAMMA}/markets?active=true&closed=false&limit=500&offset={offset}&order=liquidityNum&ascending=false"
-        page = http_json(url)
+    out, offset, page_size, max_pages = [], 0, 100, 30   # ~3000 aday üst sınır
+    for _ in range(max_pages):
+        url = f"{GAMMA}/markets?active=true&closed=false&limit={page_size}&offset={offset}&order=liquidityNum&ascending=false"
+        try:
+            page = http_json(url)
+        except Exception as e:
+            print(f"UYARI: sayfa offset={offset} çekilemedi: {e}", file=sys.stderr)
+            break
         if not isinstance(page, list) or not page:
             break
         out.extend(page)
-        time.sleep(0.5)
+        if len(page) < page_size:   # son sayfa
+            break
+        offset += page_size
+        time.sleep(0.3)
+    print(f"aday tarama: {len(out)} piyasa, {offset // page_size + 1} sayfa")
     return out
 
 
@@ -262,10 +271,22 @@ def gemini_predict(question, description, end_date, today):
     if GEMINI_GROUNDING:
         body["tools"] = [{"google_search": {}}]
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
-    resp = http_json(url, "POST", body, headers={"x-goog-api-key": GEMINI_KEY}, timeout=120)
-    parts = resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-    text = "\n".join(p.get("text", "") for p in parts if "text" in p)
-    return text, resp
+    last_err = None
+    for attempt in range(GEMINI_MAX_RETRIES + 1):
+        try:
+            resp = http_json(url, "POST", body, headers={"x-goog-api-key": GEMINI_KEY}, timeout=120)
+            parts = resp.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+            text = "\n".join(p.get("text", "") for p in parts if "text" in p)
+            return text, resp
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code == 429 or e.code >= 500:
+                wait = (2 ** attempt) * 15   # 15s, 30s, 60s, 120s...
+                print(f"  {e.code} alındı, {wait}s bekleyip tekrar denenecek ({attempt+1}/{GEMINI_MAX_RETRIES})", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise   # 4xx (400/401/403 vb.) tekrar denemeye değmez
+    raise last_err
 
 
 P_RE = re.compile(r"P_YES\s*[:=]\s*([01](?:[.,]\d+)?)", re.IGNORECASE)
