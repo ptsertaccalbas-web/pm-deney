@@ -37,7 +37,7 @@ jobs:
         if: always() && env.GEMINI_API_KEY != ''   # anahtar girilmemişse atla
         env:
           GEMINI_MODEL: gemini-3.8-flash
-          GEMINI_GROUNDING: "1"
+          GEMINI_GROUNDING: "0"
         run: python predict.py
 
       - name: Veriyi commit et
