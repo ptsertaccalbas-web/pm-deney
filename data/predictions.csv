@@ -129,3 +129,20 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-09-13,2026-09-13T10:42:48+00:00,628940,,0.0385,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-13,2026-09-13T10:42:48+00:00,1439550,,0.0325,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-13,2026-09-13T10:42:48+00:00,3399197,,0.715,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
+2026-09-14,2026-09-14T11:04:52+00:00,2252244,,0.185,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,2252245,,0.795,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,562802,0.74,0.865,gemini-3.8-flash,0,"Tarihsel olarak ABD ara seçimlerinde başkanın partisi Temsilciler Meclisi'nde neredeyse her zaman sandalye kaybetmektedir; İkinci Dünya Savaşı'ndan bu yana görevdeki başkanın partisinin Meclis'te net sandalye kazandığı yalnızca iki seçim (1998 ve 2002) olmuştur. Cumhuriyetçilerin 2024 sonrası Temsilciler Meclisi'nde sahip olduğu son derece dar çoğunluk (yalnızca birkaç sandalye marjı), Demokratların kontrolü ele geçirmek için gereken net sandalye eşiğini çok düşük kılmaktadır. Kutuplaşmış seçmen coğrafyası ve olası seçim bölgesi sınır düzenlemeleri dalgalanmanın büyüklüğünü sınırlayabilse de, ",
+2026-09-14,2026-09-14T11:04:52+00:00,562803,,0.135,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,1130012,,0.795,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,2589813,,0.365,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,2589812,0.62,0.615,gemini-3.8-flash,0,"Ekim 2026 FOMC toplantısı (27-28 Ekim), Fed'in Üç Aylık Ekonomik Projeksiyonlarını (SEP) yayımlamadığı ara toplantılardan biridir; tarihsel olarak Fed, para politikasında dönüm noktalarını veya ardışık faiz adımlarını çoğunlukla SEP toplantılarında (Mart, Haziran, Eylül, Aralık) atmayı tercih etmektedir. 2026 sonbaharı itibarıyla Fed'in faiz indirim döngüsünde nötr faiz seviyesine yaklaşmış veya ulaşmış olması, politika adımlarının seyrekleşmesini ve toplantılar arası bekle-gör yaklaşımını daha olası kılmaktadır. Ancak işgücü piyasasında belirgin bir yavaşlama veya enflasyonda beklenmedik bir ",
+2026-09-14,2026-09-14T11:04:52+00:00,562830,,0.325,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,562831,,0.125,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,601819,,0.465,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,3701690,,0.966,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,562793,,0.525,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-14,2026-09-14T11:04:52+00:00,562794,,0.475,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-14,2026-09-14T11:04:52+00:00,601826,,0.5035,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-14,2026-09-14T11:04:52+00:00,1130015,,0.0305,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-14,2026-09-14T11:04:52+00:00,608545,,0.1745,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-14,2026-09-14T11:04:52+00:00,562828,,0.525,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
