@@ -28,3 +28,5 @@ run_ts_utc,status,rows,skipped,note
 2026-09-16T10:23:13+00:00,KISMI,3,14,predict: snapshot_err=0 open=95 model=gemini-3.8-flash grounding=0
 2026-09-17T10:32:49+00:00,OK,100,0,
 2026-09-17T10:32:50+00:00,KISMI,3,14,predict: snapshot_err=0 open=93 model=gemini-3.8-flash grounding=0
+2026-09-18T10:08:56+00:00,OK,100,0,
+2026-09-18T10:08:56+00:00,KISMI,1,16,predict: snapshot_err=0 open=93 model=gemini-3.8-flash grounding=0
