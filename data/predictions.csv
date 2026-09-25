@@ -325,3 +325,24 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-09-24,2026-09-24T10:37:42+00:00,608547,,0.5825,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-24,2026-09-24T10:37:42+00:00,2264327,,0.045,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-09-24,2026-09-24T10:37:42+00:00,608566,,0.045,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
+2026-09-25,2026-09-25T10:41:15+00:00,562802,,0.925,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,562803,,0.075,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,2589813,,0.665,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,2589812,,0.325,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,562830,0.48,0.285,gemini-3.8-flash,0,"2026 ara seçimlerinde görevdeki Cumhuriyetçi yönetimin tarihsel ara seçim dezavantajı ve Temsilciler Meclisi'ndeki çok dar sandalye farkı göz önüne alındığında, Demokratların Meclis çoğunluğunu geri kazanma olasılığı oldukça yüksektir. Buna karşılık, 2026 Senato haritasında (2. Sınıf) Cumhuriyetçilerin 53 sandalyelik başlangıç avantajı bulunmakta olup, Demokratların çoğunluğu (en az net 4 sandalye kazanımı) elde etmesi için Georgia ve Michigan gibi kritik eyaletleri korurken Maine ve Kuzey Carolina gibi zorlu eyaletleri kazanması gerekmektedir; bu durum Senato'nun Cumhuriyetçilerde kalma olası",
+2026-09-25,2026-09-25T10:41:15+00:00,562831,0.28,0.075,gemini-3.8-flash,0,"2026 ara seçimlerinde Cumhuriyetçiler, Beyaz Saray'ı kontrol eden parti olarak tarihsel ""ara seçim dezavantajı"" (midterm penalty) ile karşı karşıyadır. Temsilciler Meclisi'ndeki mevcut Cumhuriyetçi çoğunluğun son derece kırılgan (birkaç sandalye) olması, Demokratların kontrolü ele geçirmesi için yalnızca çok küçük bir net kazanıma ihtiyaç duyması Meclis'in elde tutulmasını zorlaştırmaktadır. Buna karşın 2026 Senato haritası (Sınıf 2) Cumhuriyetçilere görece daha korunaklı bir zemin sunmakta ve Senato'yu elde tutma ihtimalleri Meclis'e kıyasla oldukça yüksek seyretmektedir; ancak her iki kanadı",
+2026-09-25,2026-09-25T10:41:15+00:00,601819,,0.435,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,562793,,0.625,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,562794,,0.375,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,601826,,0.552,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,608545,,0.2195,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-09-25,2026-09-25T10:41:15+00:00,562828,,0.635,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,3501950,,0.085,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,608547,,0.5785,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,2264327,,0.045,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,608566,0.02,0.045,gemini-3.8-flash,0,"Rodri'nin 2024 Ballon d'Or zaferi bir defansif orta saha oyuncusu için tarihi bir istisnaydı; modern futbolda hücum oyuncuları dışındaki mevkilerden bir oyuncunun bu ödülü birden fazla kez kazanması neredeyse emsalsizdir. 2025-26 sezonu 2026 Dünya Kupası'nı kapsayacağı için ödül büyük ölçüde turnuvanın öne çıkan hücum yıldızlarına (Mbappé, Vinícius Jr., Haaland veya İspanya tarafında Lamine Yamal gibi isimlere) yönelme eğiliminde olacaktır. Ayrıca Rodri'nin 2024 sonbaharında geçirdiği ağır çapraz bağ (ACL) sakatlığından dönüş süreci, 30 yaşına gelmesi ve mevkisinin bireysel ödüllerdeki yapısal",
+2026-09-25,2026-09-25T10:41:15+00:00,628940,,0.0455,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,1439550,,0.0085,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,3399197,,0.999,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,608553,,0.0195,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-09-25,2026-09-25T10:41:15+00:00,2170255,,0.0065,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
