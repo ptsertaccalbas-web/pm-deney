@@ -472,3 +472,20 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-10-01,2026-10-01T11:56:13+00:00,2264327,,0.0325,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
 2026-10-01,2026-10-01T11:56:13+00:00,608566,,0.0215,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-10-01,2026-10-01T11:56:13+00:00,628940,,0.0405,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
+2026-10-02,2026-10-02T11:27:51+00:00,562802,,0.925,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,562803,,0.075,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,2589813,,0.245,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,2589812,,0.745,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,562830,,0.295,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,562831,0.28,0.075,gemini-3.8-flash,0,"Tarihsel olarak ABD ara seçimlerinde başkanın partisi Temsilciler Meclisi'nde neredeyse her zaman koltuk kaybetmektedir ve Cumhuriyetçilerin Meclis'teki çoğunluk marjı son derece dardır. Senato haritası (Sınıf 2) 2026'da Cumhuriyetçilerin başlangıçtaki avantajını (53 sandalye civarı) korumasını kolaylaştırsa ve Senato'yu elde tutma olasılıkları görece yüksek olsa da, Meclis'i korumak ara seçim dinamikleri ve olası seçmen yıpranması nedeniyle oldukça zordur. Cumhuriyetçilerin Meclis'i kazandığı senaryolarda ulusal hava lehlerine olacağından Senato'yu da koruma ihtimalleri kuvvetlidir; dolayısıy",
+2026-10-02,2026-10-02T11:27:51+00:00,601819,,0.435,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,562793,0.28,0.635,gemini-3.8-flash,0,"2026 ara seçimlerinde Demokratların Senato çoğunluğunu kazanabilmesi için, Cumhuriyetçi Başkan Yardımcısının eşitlik bozma oyu nedeniyle net en az 4 sandalye kazanarak 51 sandalyeye ulaşması gerekmektedir (Cumhuriyetçiler 53-47 çoğunluğa sahiptir). 2026 Senato haritasında (2. Sınıf) Cumhuriyetçilerin savunduğu en kırılgan koltuklar Maine (Susan Collins) ve Kuzey Carolina (Thom Tillis) ile sınırlı kalırken, Demokratların da Georgia (Jon Ossoff) ve Michigan gibi kritik eyaletleri koruması gerekecektir. Beyaz Saray'da Cumhuriyetçi bir yönetimin bulunması tarihsel olarak muhalefet partisine ara se",
+2026-10-02,2026-10-02T11:27:51+00:00,562794,,0.355,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,601826,,0.568,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,608545,,0.554,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,562828,,0.635,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-02,2026-10-02T11:27:51+00:00,3501950,,0.0255,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-02,2026-10-02T11:27:51+00:00,608547,,0.386,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-02,2026-10-02T11:27:51+00:00,2264327,,0.033,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-02,2026-10-02T11:27:51+00:00,608566,,0.0115,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-02,2026-10-02T11:27:51+00:00,628940,,0.0435,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
