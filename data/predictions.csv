@@ -1087,3 +1087,24 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-10-30,2026-10-30T11:45:15+00:00,1282928,,0.0355,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-10-30,2026-10-30T11:45:15+00:00,3399459,,0.9645,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-10-30,2026-10-30T11:45:15+00:00,1283313,,0.0275,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
+2026-10-31,2026-10-31T11:19:11+00:00,562802,,0.945,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562803,,0.055,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562830,,0.235,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562831,,0.055,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562793,,0.705,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562794,,0.295,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,562828,,0.705,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,3501950,,0.0005,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,2264327,,0.0015,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-10-31,2026-10-31T11:19:11+00:00,628940,,0.0195,gemini-3.8-flash,0,,HATA TimeoutError: The read operation timed out
+2026-10-31,2026-10-31T11:19:11+00:00,3128888,,0.027,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,3501951,,0.07,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,648383,,0.265,gemini-3.8-flash,0,,HATA TimeoutError: The read operation timed out
+2026-10-31,2026-10-31T11:19:11+00:00,3399450,,0.0015,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,2243896,0.46,0.0025,gemini-3.8-flash,0,"Rusya-Ukrayna savaşında her iki tarafın maksimalist hedefleri, güvenlik garantisi arayışları ve kontrol edilen topraklar üzerindeki uzlaşmaz pozisyonları resmi ve genel bir ateşkes anlaşmasının önündeki en büyük engellerdir. Ancak 2026 sonuna kadar geçecek sürede (savaşın 4,5 yılı aşması), artan personel ve ekonomik yıpranma ile birlikte başta ABD olmak üzere uluslararası aktörlerin müzakere ve baskı yaratma ihtimali masaya oturma olasılığını belirgin biçimde artırmaktadır. Kural gereği gayriresmi dondurulmuş çatışmalar veya kısmi/yerel duraklamalar geçerli sayılmayıp resmi ve genel bir mutaba",
+2026-10-31,2026-10-31T11:19:11+00:00,2243896,,0.0025,gemini-3.8-flash,0,,HATA TimeoutError: The read operation timed out
+2026-10-31,2026-10-31T11:19:11+00:00,3399450,,0.0015,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,3399451,,0.085,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,1282928,,0.029,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,3399459,,0.991,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-10-31,2026-10-31T11:19:11+00:00,1283313,,0.0345,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
