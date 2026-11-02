@@ -1134,3 +1134,19 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-11-01,2026-11-01T12:10:13+00:00,1283376,,0.037,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-11-01,2026-11-01T12:10:13+00:00,1281108,,0.036,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
 2026-11-01,2026-11-01T12:10:13+00:00,1284640,,0.037,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
+2026-11-02,2026-11-02T13:58:38+00:00,562802,,0.945,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562803,,0.055,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562830,,0.225,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562831,,0.055,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562793,,0.725,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562794,,0.275,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,562828,,0.715,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,3501950,,0.0005,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,628940,,0.0155,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,3501951,,0.065,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,648383,,0.255,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-02,2026-11-02T13:58:38+00:00,3399451,,0.065,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-11-02,2026-11-02T13:58:38+00:00,1282928,,0.02,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-11-02,2026-11-02T13:58:38+00:00,1283313,,0.023,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-11-02,2026-11-02T13:58:38+00:00,1282776,,0.019,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 429: Too Many Requests
+2026-11-02,2026-11-02T13:58:38+00:00,1283280,,0.0135,gemini-3.8-flash,0,,"HATA HTTPError: HTTP Error 429: Too Many Requests | devre kesici: art arda 5 kota hatası, kalanlar denenmedi"
