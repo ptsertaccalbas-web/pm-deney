@@ -1176,3 +1176,7 @@ date,run_ts_utc,market_id,p_hat,market_price_yes,model,grounding,rationale,note
 2026-11-04,2026-11-04T13:22:56+00:00,3501951,,0.045,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
 2026-11-04,2026-11-04T13:22:56+00:00,648383,,0.0265,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
 2026-11-04,2026-11-04T13:22:56+00:00,3399451,,0.045,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-05,2026-11-05T13:36:45+00:00,3501950,,0.0005,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-05,2026-11-05T13:36:45+00:00,3501951,,0.0365,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-05,2026-11-05T13:36:45+00:00,648383,,0.01,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
+2026-11-05,2026-11-05T13:36:45+00:00,3399451,,0.0315,gemini-3.8-flash,0,,HATA HTTPError: HTTP Error 503: Service Unavailable
